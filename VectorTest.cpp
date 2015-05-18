@@ -44,4 +44,18 @@ int main() {
         cout << *it << " ";
     }
     cout << endl;
+	
+	vector<int> v1 = {1, 2, 3, 4};
+	vector<int> v2 = {1, 3, 3, 4, 5};
+	bool flag = true;
+	
+	for(auto p1 = v1.cbegin(), p2 = v2.cbegin(); p1 != v1.end() && p2 != v2.end(); ++p1, ++p2) {
+		if(*p1 != *p2) {
+			 flag = false;
+			 break;
+		}
+	}
+	
+	cout << flag << endl;
+	return 0;
 }
