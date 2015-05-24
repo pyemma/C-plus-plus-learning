@@ -72,7 +72,7 @@ int main() {
 	function_list.push_back(&add);
 	function_list.push_back(&substract);
 	function_list.push_back(&mulitple);
-	function_list.push_back(&divide);
+	function_list.push_back(&divide);s
 	
 	int a = 10, b = 5;
 	cout << "Add: " << (*function_list[0])(a, b) << endl;
