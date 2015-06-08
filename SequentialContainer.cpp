@@ -97,7 +97,7 @@ void fun5(const string &s) {
 	cout << endl;
 }
 
-// Parenthese validation using stack.
+// Parenthese validation using stack
 bool fun6(const string &s) {
 	stack<char> charStack;
 	for(auto ch : s) {
